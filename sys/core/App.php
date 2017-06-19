@@ -37,7 +37,7 @@ class App
 //        读取配置并设置路由类型
         self::$router->setUrlType(Config::get('Url_type'));
 //        获取经路由类处理生成的路由数组
-        $url_array = self::$router->getUrlArray();
+        $url_array = self::$router-> getRouteUrl();
 //        根据数组分发路由
         self::dispath($url_array);
     }
