@@ -30,7 +30,7 @@ class App
     /**
      * 框架启动，分析路由、分发路由。
      */
-    private static function run()
+    public static function run()
     {
 //        实例化路由类
         self::$router = new Router();
@@ -48,7 +48,7 @@ class App
      * 根据路由数组分发到具体的模块、控制器、方法。
      * @param array $url_array 路由数组
      */
-    private static function dispath($url_array = [])
+    public static function dispath($url_array = [])
     {
         $module = '';               //模块
         $controller = '';           //控制器
