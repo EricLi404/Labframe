@@ -12,6 +12,7 @@ use core\Controller;
 class IndexController extends Controller
 {
     public function index(){
+        $this->assign('name','shiyanlou---Admin');
         $this->display();
     }
 }
