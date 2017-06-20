@@ -9,6 +9,7 @@
 namespace core;
 
 use core\View;
+use core\Parser;
 
 /**
  * 控制器类
