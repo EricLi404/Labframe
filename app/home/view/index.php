@@ -30,6 +30,7 @@
         .title {
             font-size: 96px;
         }
+
         .line {
             color: black;
         }
